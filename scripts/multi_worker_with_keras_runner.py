@@ -23,8 +23,9 @@ for i, node in enumerate(nodes):
         os.system(command)
 
     thread = threading.Thread(target=thread_function, args=(command,))
-
+ 
 
     thread.start()
 thread.join()
 
+##TEST
